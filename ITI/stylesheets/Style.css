@@ -1,0 +1,125 @@
+.primary{
+    color: #865d0f;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.intro-block .row{
+    align-items: center;
+}
+
+.avatar{
+    width: 20%;
+    border-radius: 0.25rem;
+}
+
+.avatar img{
+    width: 200px;
+    height: 200px;
+    float: left;
+    border: 10px solid transparent;
+    border-radius: 50%;
+    margin: auto;
+}
+.intro-block .content{
+    width: 80%;
+    float: right;
+}
+
+.contact-me ul{
+    list-style: none;
+    padding: 0%;
+}
+
+.contact-me>ul li{
+    display: inline;
+    padding: 0 5px;
+}
+
+.contact-me a {
+    text-decoration: none;
+}
+
+.secondary {
+    color: rgb(190, 149, 95);
+}
+
+.title {
+    font-size: 24px;
+}
+
+.education-item {
+    display: flex;
+    align-items: center;
+    width: 33.33333%;
+}
+
+.education-item .logo {
+    width: 20%;
+}
+
+.education-item .logo img {
+    width: 140%;
+}
+
+.education-item ul li {
+    list-style: none;
+    padding: 5px 0;
+}
+
+.education-item ul :nth-child(1) {
+    color:rgb(124, 91, 51)
+}
+
+.education-item ul :nth-chile(2) {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.education-item ul :nth-child(3)  {
+    color: rgb(133, 73, 43);
+}
+
+.others-block {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.others-block h3 {
+    padding-bottom: 5px;
+    border-bottom: 2px solid #AAA;
+}
+
+.skill {
+    padding-right: 5px;
+}
+
+.language {
+    padding-left: 5px;
+}
+
+
+.others-block>div {
+    width: 50%;
+}
+
+.others-block>* {
+    box-sizing: border-box;
+}
+
+@media screen and {max-width: 768px;
+    .education-item {
+        width: 10%;
+    }
+}
